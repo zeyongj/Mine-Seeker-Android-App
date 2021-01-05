@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".model.myDialogue"
+    android:padding="15dp"
+    tools:ignore="MissingDefaultResource"
+    android:background="@drawable/image_white">
+
+    <ImageView
+        android:id="@+id/dialog_iv1"
+        android:src="@drawable/mine"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+
+    <TextView
+    android:id="@+id/dialog_tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Congratulations! You won!"
+    android:textSize="40dp"
+    android:layout_marginLeft="150dp"
+    android:textColor="#000"
+    android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+
+
+
+</RelativeLayout>

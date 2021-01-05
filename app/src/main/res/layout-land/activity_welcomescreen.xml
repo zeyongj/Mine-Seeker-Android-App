@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_11"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/welcome_iv1"
+        android:layout_below="@id/welcome_tv1"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carpenter"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/welcome_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:text="Mine Seeker"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/welcome_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_iv1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="20dp"
+        android:text="by: Yixuan Lu &amp; Zeyong Jin"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_iv1"
+        android:text="Skip"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_alignLeft="@id/welcome_iv1"
+        android:layout_marginLeft="408dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="400dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

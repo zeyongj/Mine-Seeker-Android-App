@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/image_white"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/main_id0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="10dp"
+        android:text="Main Menu"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/Game"
+        android:layout_below="@id/main_id0"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_clicked_main"
+        android:drawableLeft="@drawable/game"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:text="Play game!"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+        <Button
+            android:id="@+id/Options"
+            android:layout_below="@id/Game"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:text="Options"
+            android:background="@drawable/button_clicked_main"
+            android:drawableLeft="@drawable/option"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            />
+
+    <Button
+        android:id="@+id/Help"
+        android:layout_below="@id/Options"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:text="Help"
+        android:background="@drawable/button_clicked_main"
+        android:drawableLeft="@drawable/help"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/main_iv"
+        android:layout_below="@id/main_id0"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="420dp"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@drawable/bomb"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/numofGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/numofGames"/>
+
+
+</RelativeLayout>

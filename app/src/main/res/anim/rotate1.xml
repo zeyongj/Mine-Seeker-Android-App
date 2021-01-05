@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    Codes of animation of rotate are inspired from the website: https://www.youtube.com/watch?v=goVoYf2qie0&ab_channel=CoderScionMedia-->
+    <!--    Codes of animation of move are inspired from the website: https://www.youtube.com/watch?v=JLIFqqnSNmg&ab_channel=CodingWithTea-->
+    <rotate
+        android:pivotY = "50%"
+        android:pivotX = "50%"
+        android:toDegrees="360"
+        android:fromDegrees="0"
+        android:duration = "1000">
+
+    </rotate>
+
+</set>

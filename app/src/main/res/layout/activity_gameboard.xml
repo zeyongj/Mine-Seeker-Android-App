@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/image_white">
+
+    <TextView
+        android:id="@+id/numMine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/numScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toRightOf="@id/numMine"
+        android:layout_marginLeft="470dp"
+        android:textColor="#000000"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toRightOf="@id/numScan"
+        android:layout_marginLeft="450dp"
+        android:textColor="#000000"
+        android:textSize="15dp"/>
+
+
+
+    <TableLayout
+        android:id="@+id/tableForbuttons"
+        android:layout_width="700dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:stretchColumns="*"
+        android:layout_below="@id/numMine"
+        android:layout_alignLeft="@id/numMine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485">
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/numGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableForbuttons"
+        android:layout_alignRight="@id/tableForbuttons"
+        android:layout_marginTop="7dp"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+
+
+
+</RelativeLayout>

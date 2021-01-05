@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    android:background="@drawable/image_white">
+    <TextView
+        android:id="@+id/help_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium" />
+
+    <TextView
+        android:id="@+id/help_author_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_title"
+        android:layout_marginTop="10dp"
+        android:text="About Authors"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:id="@+id/help_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_author_intro"
+        android:layout_marginTop="10dp"
+        android:text="This game is developed by Yixuan Lu and Zeyong Jin."
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_website_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_author"
+        android:layout_marginTop="10dp"
+        android:text="About the course "
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/help_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_website_intro"
+        android:layout_marginTop="10dp"
+        android:text="Find more information on: https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home"
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_game_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_website"
+        android:layout_marginTop="10dp"
+        android:text="About the game "
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/help_game_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_game_intro"
+        android:layout_marginTop="10dp"
+        android:text="This is a single-player mine seeker game. The player has the right to choose the size of the game cells. To win the game, the player should first find out all the mines which are randomly lie on the cells. After each clicking (i.e. scanning), you might find a mine, or get the information about the number of mines on the row of column of the clicked cell. But be attention, the number of scanning would also be recorded, so the player should try their best to find out all the mines via the least number of scans. "
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_game_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_game_1"
+        android:layout_marginTop="2dp"
+        android:text="Wish you good luck and enjoy this game!"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_game_2"
+        android:layout_marginTop="10dp"
+        android:text="Reference"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/help_reference_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_intro"
+        android:layout_marginTop="10dp"
+        android:text="1. The two images on the welcome page are from the website: https://opencoursehub.cs.sfu.ca/bfraser/solutions/276/images/Images/ (English Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_1"
+        android:layout_marginTop="2dp"
+        android:text="2. The codes of two animations on the welcome page are modified from the website: https://www.youtube.com/watch?v=goVoYf2qie0ab_channel=CoderScionMedia and https://www.youtube.com/watch?v=JLIFqqnSNmgab_channel=CodingWithTea (English Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_2"
+        android:layout_marginTop="2dp"
+        android:text="3. The codes of splash screen on the welcome page are modified from the website: https://www.youtube.com/watch?v=JLIFqqnSNmgab_channel=CodingWithTea (English Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_3"
+        android:layout_marginTop="2dp"
+        android:text="4. The codes of avoiding splash screen jumping again to the main menu on the welcome page are modified from the website: https://blog.csdn.net/qq_40116418/article/details/78796338 (Chinese Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_4"
+        android:layout_marginTop="2dp"
+        android:text="5. The codes of exiting the game are modified from the website: https://readyandroid.wordpress.com/exit-android-app-on-back-pressed/#:~:text=For%20that%20you%20need%20to,top%20activity%20in%20the%20stack.text=in%20back%20button%20pressed%20you,method%20inside%20onBackPressed()%20method (English Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_5"
+        android:layout_marginTop="2dp"
+        android:text="6. The icons of this assignment are downloaded from the website: https://www.iconfont.cn/search/index?searchType=iconq=%E7%82%B8%E5%BC%B9 (Chinese Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/help_reference_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/help_reference_6"
+        android:layout_marginTop="2dp"
+        android:text="7. The background of this assignment except the welcome page is downloaded from the website: https://wonderfulengineering.com/download-66-white-wallpaper-for-desktop-and-mobile/ (English Version)."
+        android:autoLink="web"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-light"/>
+
+
+    <Button
+        android:id="@+id/help_btn"
+        android:layout_width="48dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/help_reference_7"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="430dp"
+        android:text="Back"
+        android:background="@drawable/button_clicked"
+        android:layout_alignRight="@id/help_reference_6"/>
+
+
+</RelativeLayout>
+</ScrollView>
