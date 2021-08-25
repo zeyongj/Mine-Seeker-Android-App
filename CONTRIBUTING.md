@@ -71,8 +71,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the intstructor at [ggbaker@sfu.ca], or the teaching
-team at [cmpt-353-help@sfu.ca]. All complaints will be reviewed and investigated 
+reported by contacting the intstructor at [bfraser@sfu.ca]. All complaints will be reviewed and investigated 
 and will result in a response that is deemed necessary and appropriate to the 
 circumstances. The project team is obligated to maintain confidentiality with 
 regard to the reporter of an incident. Further details of specific enforcement 
