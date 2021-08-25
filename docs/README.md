@@ -1,8 +1,9 @@
 # README
 
 ## Introuduction 
-- This is the third assignment of CMPT 276, and the professor is Dr.Fraser.
+- This is the third assignment of CMPT 276, and the professor is Dr. Fraser.
 - This assignment is done by Yixuan Lu (yla519@sfu.ca) and Zeyong Jin (zeyongj@sfu.ca).
+- This assignment is to implement a mine seeker application that can run on Android machines.
 - In this assignment, we finished all the required features.
 - As for the optional features, the following are completed:
   1. Welcome screen: animation
